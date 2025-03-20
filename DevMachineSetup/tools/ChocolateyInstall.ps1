@@ -34,15 +34,13 @@ try
 
     # Essential Tools
     choco install 7zip
-    choco install windirstat
-    choco install baretail
-    choco install greenshot
+        choco install greenshot
     choco install hostsman
     choco install grepwin
     choco install microsoft-windows-terminal
     choco install terminal-icons.powershell --package-parameters="/core /desktop"
     choco install terminals
-    choco install scrcpy
+ 
 
     # Setup Scoop
     if (!(Test-Path -Path '~/scoop')) {
@@ -75,7 +73,6 @@ try
     choco install opera
 
     # DevTools - Frameworks
-    choco install dotnet-5.0-sdk
     choco install dotnet # 6.0
     choco install dotnet-sdk # 6.0-sdk
     choco install dotnet4.6
